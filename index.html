@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Link Tree</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bd38be0c7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pfp-bio-container">
+        <div class="pfp-wrapper">
+          <img src="assets/pfp-orange.jpeg" alt="orange-pfp" class="pfp" />
+        </div>
+        <div class="bio-wrapper">
+          <h1>OGTaquito</h1>
+          <p>
+            I am a 23 year old guy who enjoys playing video games and
+            is currently on their software engineering path. I love interacting with people.
+            and streaming on Twitch. Don’t be shy you can say hi, I’ll definitely reply back :)
+          </p>
+        </div>
+      </div>
+
+      <div id="twitch-embed"></div>
+
+      <!-- Load the Twitch embed JavaScript file -->
+      <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    </div>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 320,
+        height: 240,
+        channel: "og_taquito",
+        autoplay: true,
+        muted: true,
+        allowfullscreen: true,
+        fullscreen: false,
+        layout: "video",
+        video: "614410187",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"],
+      });
+    </script>
+  </body>
+</html>
