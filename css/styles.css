@@ -9,11 +9,14 @@
     background:var(--card-bg);
     padding: 1rem;
     border-radius: 0.4rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
 }
 .pfp {
     border-radius: 50%;
-    box-shadow: 0 18px 45px 0 rgba(22, 22, 26, 1);
-    
+    /*box-shadow: 0 18px 45px 0 rgba(22, 22, 26, 0.1);
+    */
+    box-shadow: var(--shadow);
 }
 .pfp-wrapper  {
     height: 8rem;
@@ -25,3 +28,41 @@
     padding-top:2rem ;
 }
 
+
+.modal-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--card-bg);
+    margin-top: 2.5rem;
+    box-shadow: var(--shadow);
+    border-radius: 0.4rem;
+    width: 610px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    
+
+}
+
+.modal-wrapper p {
+    color: var(--subtext);
+}
+.logo-wrapper {
+    order: 1;
+    padding: 0;
+    
+}
+
+.logo-wrapper img {
+    box-shadow: var(--twitch-shadow);
+    width: 60px;
+    height: 60px;
+    z-index: 20;
+    margin: 0;
+}
+.logo-wrapper img:hover {
+    transform: translate(0px, -5px);
+    transition: transform 250ms ease-in-out;
+}
+.modal-text {
+    order: 2;
+}
