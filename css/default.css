@@ -1,13 +1,13 @@
 :root {
-    --bg: #dfdfdf;
-    --p-text: #1a1a1a;
-    --subtext: #6f6f6f;
-    --h-text: #1c1c1c;
-    --card-bg: #fff;
-    --bg-button:#7f5af0;
-    --bg-button2: #2cb67d;
-    --shadow:  0 10px 20px rgba(26, 55, 78, 0.2);
-    --twitch-shadow: 0 10px 20px rgba(145, 70, 255, 0.2);
+  --bg: #dfdfdf;
+  --p-text: #1a1a1a;
+  --subtext: #6f6f6f;
+  --h-text: #1c1c1c;
+  --card-bg: #fff;
+  --bg-button: #7f5af0;
+  --bg-button2: #2cb67d;
+  --shadow: 0 10px 20px rgba(26, 55, 78, 0.2);
+  --twitch-shadow: 0 10px 20px rgba(145, 70, 255, 0.2);
 }
 
 section,
@@ -15,79 +15,74 @@ footer,
 header,
 main,
 nav {
-    display: block;
-
+  display: block;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    margin:0;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--p-text);
-    background-color: var(--bg);
-    text-align: left;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--p-text);
+  background-color: var(--bg);
+  text-align: left;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: var(--h-text);
-    margin-top: 0.25rem;
-    margin-bottom: 0.5rem;
+  color: var(--h-text);
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
-    margin-top: 0;
-    
+  margin-top: 0;
 }
 
 button {
-    outline:none;
-
+  outline: none;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 640px;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  overflow: hidden;
 }
 
 .header-lg {
-    font-size: 5rem;
-    letter-spacing: -2.5px;
-    line-height: 1.05;
-
+  font-size: 5rem;
+  letter-spacing: -2.5px;
+  line-height: 1.05;
 }
 
 .header-md {
-    font-size: 3rem;
-    letter-spacing: -2px;
-    
-
+  font-size: 3rem;
+  letter-spacing: -2px;
 }
 
 .sub-header {
-    font-size: 1.3125rem;
-    line-height: 1.5;
-    padding-top: 1.25rem;
-    padding-bottom:1.875rem;
-
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
 }
 .btn:not(:disabled):not(.disabled),
 button:not(:disabled):not(.disabled) {
-    cursor: pointer;
+  cursor: pointer;
 }

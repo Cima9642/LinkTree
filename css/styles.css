@@ -1,68 +1,65 @@
 .pfp-bio-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 3.5rem;
-    background:var(--card-bg);
-    padding: 1rem;
-    border-radius: 0.4rem;
-    box-shadow: var(--shadow);
-    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3.5rem;
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
 }
 .pfp {
-    border-radius: 50%;
-    /*box-shadow: 0 18px 45px 0 rgba(22, 22, 26, 0.1);
+  border-radius: 50%;
+  /*box-shadow: 0 18px 45px 0 rgba(22, 22, 26, 0.1);
     */
-    box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 }
-.pfp-wrapper  {
-    height: 8rem;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.pfp-wrapper {
+  height: 8rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 .bio-wrapper {
-    padding-top:2rem ;
+  padding-top: 2rem;
 }
 
-
 .modal-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: var(--card-bg);
-    margin-top: 2.5rem;
-    box-shadow: var(--shadow);
-    border-radius: 0.4rem;
-    width: 610px;
-    margin-bottom: 2rem;
-    margin-top: 0;
-    
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--card-bg);
+  margin-top: 2.5rem;
+  box-shadow: var(--shadow);
+  border-radius: 0.4rem;
+  width: 610px;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  z-index: 1;
 }
 
 .modal-wrapper p {
-    color: var(--subtext);
+  color: var(--subtext);
 }
 .logo-wrapper {
-    order: 1;
-    padding: 0;
-    
+  order: 1;
+  padding: 0;
 }
 
 .logo-wrapper img {
-    box-shadow: var(--twitch-shadow);
-    width: 60px;
-    height: 60px;
-    z-index: 20;
-    margin: 0;
+  box-shadow: var(--twitch-shadow);
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  margin: 0;
 }
 .logo-wrapper img:hover {
-    transform: translate(0px, -5px);
-    transition: transform 250ms ease-in-out;
+  transform: translate(0px, -5px);
+  transition: transform 250ms ease-in-out;
 }
 .modal-text {
-    order: 2;
+  order: 2;
 }
