@@ -63,6 +63,8 @@ button {
   margin-right: auto;
   max-width: 640px;
   overflow: hidden;
+  align-content: center;
+  justify-content: center;
 }
 
 .header-lg {
