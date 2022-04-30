@@ -11,8 +11,7 @@
   border-radius: 0.4rem;
   box-shadow: var(--shadow);
   margin-bottom: 2rem;
-  background-image: url(.assets/Mesh-white.jpg);
-  background-size: cover;
+ 
 }
 .pfp {
   border-radius: 50%;
@@ -56,6 +55,7 @@
 
 .logo-wrapper img {
   box-shadow: var(--twitch-shadow);
+  background-image: url();
   width: 60px;
   height: 60px;
   z-index: 2;
