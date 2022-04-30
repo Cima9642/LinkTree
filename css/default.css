@@ -7,7 +7,10 @@
   --bg-button: #7f5af0;
   --bg-button2: #2cb67d;
   --shadow: 0 10px 20px rgba(26, 55, 78, 0.2);
-  --twitch-shadow: 0 10px 20px rgba(145, 70, 255, 0.2);
+  --twitch-shadow: 0px 0px 10px 3px  rgba(145, 70, 255, 0.5 );
+  --twitter-shadow: 0px 0px 10px 3px  rgba(29, 161, 242, 0.5);
+  --discord-shadow: 0px 0px 10px 3px  rgba(86, 99, 247, 0.5); 
+  --ig-shadow: 0px 0px 10px 3px  rgba(245, 96, 64,0.5);
 }
 
 section,
@@ -36,6 +39,7 @@ body {
   color: var(--p-text);
   background-color: var(--bg);
   text-align: left;
+  margin: 5rem;
 }
 
 h1,
@@ -45,6 +49,13 @@ h4 {
   color: var(--h-text);
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  font-style: inherit;
+  margin: inherit;
 }
 
 p {
@@ -66,10 +77,11 @@ button {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 640px;
+  max-width: 800px;
   overflow: hidden;
   align-content: center;
   justify-content: center;
+  
 }
 
 .header-lg {

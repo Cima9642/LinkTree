@@ -15,7 +15,6 @@
 }
 .pfp {
   border-radius: 50%;
-  
   box-shadow: var(--shadow);
 }
 .pfp-wrapper {
@@ -35,8 +34,8 @@
   margin-top: 2.5rem;
   box-shadow: var(--shadow);
   border-radius: 0.4rem;
-  width: 610px;
-  margin-bottom: 2rem;
+  width: 400px;
+  margin-bottom: 0;
   z-index: 1;
   align-items: center;
   margin-left: auto;
@@ -44,28 +43,57 @@
   
 }
 
+.modal-text {
+  order: 2;  
+  position: relative;
+ 
+  right: -0.5rem;
+padding: 0.5rem;
+width: 400px;
+
+}
 
 .modal-wrapper p {
   color: var(--subtext);
+
 }
+
 .logo-wrapper {
   order: 1;
   padding: 0;
+  z-index: 1;
+  margin: 0;
+  width: 70px;
 }
 
 .logo-wrapper img {
-  box-shadow: var(--twitch-shadow);
-  background-image: url();
-  width: 60px;
-  height: 60px;
+  position: relative;
+  right: 1rem;
+  bottom: 0.1rem;
+  width: 70px;
+  height: 70px;
   z-index: 2;
   margin: 0;
+  border-radius: 0.4rem;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+#twitch img {
+  box-shadow: var(--twitch-shadow);
+}
+#twitter img {
+  box-shadow: var(--twitter-shadow);
+}
+#discord img {
+  box-shadow: var(--discord-shadow);
+}
+#ig img {
+  box-shadow: var(--ig-shadow);
 }
 .logo-wrapper img:hover {
   transform: translate(0px, -5px);
   transition: transform 250ms ease-in-out;
-}
-.modal-text {
-  order: 2;
 }
 
