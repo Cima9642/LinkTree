@@ -3,7 +3,7 @@ This is a LinkTree ispired by solo.to , this linktree will be helpful to those w
 
 ## Authors
 
-- [@cima9642](https://www.github.com/cima9642)
+[Carlos Martinez](https://www.github.com/cima9642)
 
 
 ## 🔗 Links
